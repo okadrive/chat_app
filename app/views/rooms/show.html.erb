@@ -1,6 +1,14 @@
-<h1>chat Room</h1>
-<input type="text" id="chat-input" />
-<button id="send-button">送信</button>
-<div id="messages">
-    <%= render @messages %>
+<div class="container">
+    <h1>Chat Room</h1>
+    <form class="form-inline">
+        <div class="form-group">
+            <input type="text" id="chat-input" />
+        </div>
+        <button id="send-button" class="btn-primary">送信</button>
+    </form>
+    <div id="messages">
+        <ul class="list-group">
+            <%= render @messages %>
+        </ul>
+    </div>
 </div>
