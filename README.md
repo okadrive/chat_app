@@ -1,24 +1,10 @@
-# README
+# chat_app
+* 双方向のチャットが可能な簡易チャットアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# version
+* ruby 2.7.0
+* Rails 6.0.2.1
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## references
+* [railsでbroadcastしたが、その際にjsのreceivedが動かない](https://teratail.com/questions/170114)
+* [【Rails6.0】ActionCableとDeviseの欲張りセットでリアルタイムチャット作成](https://qiita.com/eRy-sk/items/4c4e983e34a44c5ace27)
